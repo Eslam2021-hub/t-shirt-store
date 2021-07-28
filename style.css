@@ -1,0 +1,27 @@
+body {
+    box-sizing: border-box;
+}
+.big {
+    background-color: yellow;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.subcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.small {
+    border: 1px solid black;
+    height: 100%;
+    width: 33%;
+}
+#bigimage {
+height: 100%;
+width: auto;
+}
+.small img {
+    width: 100%;
+    height: 200px;
+}
